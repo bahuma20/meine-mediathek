@@ -45,8 +45,8 @@ class Auth0Authenticator extends AbstractAuthenticator
             throw new CustomUserMessageAuthenticationException('Authorization token missing');
         }
 
-        $tokenIssuer = 'https://bhm-mediathek.eu.auth0.com/';
-        $tokenAudience = 'http://localhost:3002/';
+        $tokenIssuer = $_SERVER['AUTH0_TOKEN_ISSUER'];
+        $tokenAudience = $_SERVER['AUTH0_TOKEN_AUDIENCE'];
 
 
         $psr6Cache = new FilesystemAdapter();
