@@ -7,12 +7,14 @@
         "php": ">=7.4.0",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "ext-json": "*",
         "auth0/auth0-php": "^7.9",
         "composer/package-versions-deprecated": "1.11.99.2",
         "doctrine/doctrine-bundle": "^2.4",
         "doctrine/doctrine-migrations-bundle": "^3.1",
         "doctrine/orm": "^2.9",
         "nelmio/cors-bundle": "^2.1",
+        "symfony/apache-pack": "^1.0",
         "symfony/cache": "5.3.*",
         "symfony/console": "5.3.*",
         "symfony/dotenv": "5.3.*",
@@ -22,8 +24,7 @@
         "symfony/proxy-manager-bridge": "5.3.*",
         "symfony/runtime": "5.3.*",
         "symfony/security-bundle": "5.3.*",
-        "symfony/yaml": "5.3.*",
-        "ext-json": "*"
+        "symfony/yaml": "5.3.*"
     },
     "require-dev": {
         "symfony/debug-bundle": "^5.3",
